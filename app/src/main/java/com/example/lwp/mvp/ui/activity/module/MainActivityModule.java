@@ -1,5 +1,6 @@
 package com.example.lwp.mvp.ui.activity.module;
 
+import com.example.lwp.mvp.model.Student;
 import com.example.lwp.mvp.model.User;
 import com.example.lwp.mvp.ui.activity.ActivityScope;
 import com.example.lwp.mvp.ui.activity.MainActivity;
@@ -28,11 +29,21 @@ public class MainActivityModule {
     }
 
 
+
+
     @Provides
     @ActivityScope
-    MainActivityPresenter provideMainActivityPresenter(MainActivity mainActivity, User user) {
-        return new MainActivityPresenter(mainActivity, user);
+    Student provideStudent() {
+        return new Student("1001","haifeng");
     }
+
+    @Provides
+    @ActivityScope
+    MainActivityPresenter provideMainActivityPresenter(MainActivity mainActivity, User user,Student student) {
+        return new MainActivityPresenter(mainActivity, user,student);
+    }
+
+
 
 
 }

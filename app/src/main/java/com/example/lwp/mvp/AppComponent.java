@@ -5,7 +5,9 @@ import android.app.Application;
 import com.example.lwp.mvp.data.AppServiceModule;
 import com.example.lwp.mvp.data.api.ApiService;
 import com.example.lwp.mvp.data.api.ApiServiceModule;
+import com.example.lwp.mvp.model.Student;
 import com.example.lwp.mvp.model.User;
+import com.squareup.okhttp.OkHttpClient;
 
 import javax.inject.Singleton;
 
@@ -24,4 +26,5 @@ public interface AppComponent {
     ApiService getService();
 
     User getUser();
+
 }

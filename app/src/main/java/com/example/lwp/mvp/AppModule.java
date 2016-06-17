@@ -2,6 +2,9 @@ package com.example.lwp.mvp;
 
 import android.app.Application;
 
+import com.example.lwp.mvp.model.Student;
+import com.squareup.okhttp.OkHttpClient;
+
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -18,6 +21,8 @@ public class AppModule {
     public AppModule(Application application){
         this.application=application;
     }
+
+
 
     @Provides
     @Singleton

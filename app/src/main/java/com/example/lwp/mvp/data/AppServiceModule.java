@@ -15,7 +15,7 @@ public class AppServiceModule {
     User provideUser() {
         User user = new User();
         user.setId("1");
-        user.setName("hello world");
+        user.setName("hello,大家好我是周海峰");
         return user;
     }
 }
