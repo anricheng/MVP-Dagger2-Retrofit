@@ -6,7 +6,7 @@ import retrofit.Callback;
 import retrofit.http.GET;
 
 /**
- * Created by clevo on 2015/6/10.
+ * Created by aric on 2015/6/10.
  */
 public interface ApiService {
 

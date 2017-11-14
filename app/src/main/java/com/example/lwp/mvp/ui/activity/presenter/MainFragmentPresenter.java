@@ -8,13 +8,13 @@ import javax.inject.Inject;
 /**
  * Created by aric on 2015/6/10.
  */
-public class MainActivityPresenter {
+public class MainFragmentPresenter {
 
     private ViewInterface mViewInterface;
     private User user;
     private Student student;
     @Inject
-    public MainActivityPresenter(ViewInterface viewInterface) {
+    public MainFragmentPresenter(ViewInterface viewInterface) {
         this.mViewInterface = viewInterface;
     }
 

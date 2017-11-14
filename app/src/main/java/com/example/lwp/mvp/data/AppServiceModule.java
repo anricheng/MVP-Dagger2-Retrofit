@@ -1,21 +1,18 @@
 package com.example.lwp.mvp.data;
 
-import com.example.lwp.mvp.model.User;
-
 import dagger.Module;
-import dagger.Provides;
 
 /**
- * Created by clevo on 2015/6/13.
+ * Created by aric on 2015/6/13.
  */
 @Module
 public class AppServiceModule {
 
-    @Provides
-    User provideUser() {
-        User user = new User();
-        user.setId("1");
-        user.setName("hello,大家好我是周海峰");
-        return user;
-    }
+//    @Provides
+//    User provideUser() {
+//        User user = new User();
+//        user.setId("1");
+//        user.setName("hello,大家好我是周海峰");
+//        return user;
+//    }
 }
