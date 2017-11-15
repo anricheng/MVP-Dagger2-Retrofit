@@ -41,6 +41,6 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.7.0'
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
-    compile 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile 'com.android.support.test.espresso:espresso-contrib:3.0.1'
+//    compile 'com.android.support.test.espresso:espresso-core:3.0.1'
+//    compile 'com.android.support.test.espresso:espresso-contrib:3.0.1'
 }
